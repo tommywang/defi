@@ -162,7 +162,8 @@ body {
 }
 
 .blocLayer a {
-	font-size:24px;
+	font-family: Tamil MN;
+	font-size:20px;
 	text-decoration:none;
 	color:#000;
 	position:relative;

@@ -1,3 +1,13 @@
+@font-face {
+    font-family: "VistaSansAltLight";
+    src: url(../VistaSansAltLight.ttf);
+}
+
+@font-face {
+    font-family: "VistaSansSCLight";
+    src: url(../VistaSansSCLight.ttf);
+}
+
 body {
 	background-color:#7c7575;
 	margin:0;
@@ -164,7 +174,8 @@ body {
 }
 
 .inner .pagetitle {
-	font-size:20px;
+	font-family: Letter Gothic Std;
+	font-size: 30px;
 	position:absolute;
 	margin-top:140px;
 	margin-left:40px;
@@ -178,14 +189,17 @@ body {
 }
 
 .inner .contentText {
+font-family: VistaSansAltLight;
+line-height:140%;
 	text-align:left;
 	position:absolute;
-	margin-top:213px;
+	margin-top:230px;
 	margin-left:40px;
 	margin-right:40px;
 }
 
 .footer {
+	font-family: VistaSansSCLight;
 	float:right;
 	margin-left:auto;
 	margin-right:auto;

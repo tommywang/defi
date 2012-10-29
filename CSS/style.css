@@ -38,6 +38,11 @@ body {
 	text-align:center;
 }
 
+.containerView.longBackground{
+	background-size:1280px 1522px;
+	height: 1522px;
+}
+
 #inner {
 	position:absolute;
 	z-index:1;
@@ -64,6 +69,17 @@ body {
 	margin-top:339px;
 	z-index:0;
 	height:540px;
+	width:731px;
+	background-color:rgba(228,228,228,0.2);
+}
+
+#bottomLayer.longBackground{
+	
+	position:absolute;
+	margin-left:279px;
+	margin-top:339px;
+	z-index:0;
+	height: 1084px;
 	width:731px;
 	background-color:rgba(228,228,228,0.2);
 }
@@ -202,6 +218,7 @@ body {
 	color:#000;
 	font-family:VistaSansSCReg;
 	text-align:left;
+	text-decoration: none;
 	bottom:0;
 }
 
@@ -321,4 +338,180 @@ body {
 #footer ul li a {
 	color:#fff;
 	text-decoration:none;
+}
+
+#horizontalLine
+{
+position: absolute;
+margin-left: 74px;
+margin-top: 522px;
+width: 706px;
+border-bottom: solid #0A0000;
+border-bottom-width: 2px;
+border-color: black;
+}
+
+#veticalLine
+{
+position: absolute;
+margin-left: 681px;
+margin-top: 65px;
+height: 993px;
+border-left: solid #0A0000;
+border-left-width: 2px;
+border-color: black;
+}
+
+
+
+.blocDetailsMore
+{
+	font-family:VistaSansSCLight;
+    margin-top:92px;
+    position: absolute;    
+}
+
+.blocDetailsMore > img
+{
+    float:left;
+    margin-left:50px;
+    margin-top:40px;
+    margin-right:20px;
+    margin-bottom:20px;
+    height:250px;
+}
+
+.blocDetailsMore .detailTitle
+{
+	
+    font-size: 33px;
+position: relative;
+top: 30px;
+left: -46px;     
+}
+
+.blocDetailsMore .detailContent
+{            
+line-height:140%;
+   margin-top: 40px;
+margin-right: 40px;
+margin-left: 40px;
+text-align: left;       
+}
+
+
+
+
+
+
+#detailTitle
+{
+    font-size:25px;     
+    position:relative;
+    top:30px;
+    left:-60px;       
+}
+
+.innerBottom > .download{
+	position: absolute;
+margin-top: -579px;
+margin-left: 498px;
+}
+
+.innerBottom
+{
+    position: absolute;
+z-index: 1;
+margin-top: 862px;
+margin-left: 333px;
+height: 563px;
+width: 628px;
+}
+
+
+.detailSection
+{
+    height:181px;
+}
+
+.detailSection.detailSection1
+{
+	margin-top:10px;
+}
+.detailSection.detailSection1 > img
+{
+    position:relative;
+    float:left;
+    margin:20px;
+}
+
+.detailSection.detailSection2 > img
+{
+    position:relative;
+    float:right;
+    margin:20px;
+}
+
+
+.detailSection.detailSection3 > img
+{
+    position:relative;
+    float:left;
+    margin:20px;
+}
+
+.textZone
+{
+font-family:VistaSansAltLight;
+	position: relative;
+width: 380px;
+height: 130px;
+text-align: left;
+padding: 30px;
+}
+
+.detailSection1 .textZone{
+	margin-left: 181px;
+	
+}
+
+.detailSection2 .textZone{
+	margin-left: 0px;
+}
+
+.detailSection3 .textZone{
+	margin-left: 181px;
+}
+
+.sectionTitle
+{
+	font-family:VistaSansSCReg;
+	font-size:15px;
+	font-style: bold;
+	position: absolute;
+	
+}
+
+/*
+.textZone .pageTitle {
+	font-family:Letter Gothic Std;
+	font-size:20px;
+	color:black;
+}
+*/
+
+.textZone .titileUnderLine {
+	margin-top:2px;
+	border-bottom:solid black;
+	border-bottom-width:2px;
+	width:100%;
+}
+
+.textZone .contentText {
+font-size:12px;
+margin-top: 25px;
+	color:black;
+	font-family:VistaSansSCReg;
+	line-height:140%;
+	text-align:left;
 }

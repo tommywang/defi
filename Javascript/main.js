@@ -6,6 +6,8 @@ function toGreenBackground() {
 	document.getElementById('topLayer').style.backgroundColor = 'rgba(178,175,178,0.49)';
 	document.getElementById('bottomLayer').style.backgroundColor = 'rgba(178,175,178,0.49)';
 	document.getElementById('inner').style.backgroundColor = 'rgba(255,255,255,0.8)';
+	document.getElementById('palmierGauche').style.backgroundImage = 'url("Assets/palmLeftCocoHided.png")';
+	document.getElementById('palmierDroit').style.backgroundImage = 'url("Assets/palmRightCocoHided.png")';
 }
 
 function displayBlocDetails(blockNumber) {

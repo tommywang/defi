@@ -1,3 +1,4 @@
+//Choose to load "mentions légales" or "conditions générales"
 function loadPage() {
 	var idPage=getUrlVars()["idPage"];
 
@@ -30,6 +31,7 @@ function loadPage() {
 	}
 }
 
+//read parameters from the url
 function getUrlVars() {
 	var vars = {};
 	var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function(m, key, value) {

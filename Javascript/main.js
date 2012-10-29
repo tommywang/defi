@@ -1,5 +1,5 @@
+//Night=>Day
 function toGreenBackground() {
-	//var background=document.getElementById('mainContainer');
 	document.getElementById('first').style.backgroundImage = 'url("Assets/backgroundGreen.png")';
 	document.getElementById('plage').style.backgroundImage = 'url("Assets/beach.png")';
 	document.getElementById('triangle').style.backgroundImage = 'url("Assets/triangleYellow.png")';
@@ -10,6 +10,7 @@ function toGreenBackground() {
 	document.getElementById('palmierDroit').style.backgroundImage = 'url("Assets/palmRightCocoHided.png")';
 }
 
+//Handle click once and twice
 function displayBlocDetails(blockNumber) {
 	var blockDetailsId = "bloc" + blockNumber + "Details";
 	var blocDetails = document.getElementById(blockDetailsId);
@@ -51,6 +52,7 @@ function displayBlocDetails(blockNumber) {
 	}
 }
 
+//Hide the detail info when clicked
 function hideBlocDetails(blockNumber) {
 	for (var i = 1; i <= 4; i++) {
 		var blocClass = "bloc" + i;

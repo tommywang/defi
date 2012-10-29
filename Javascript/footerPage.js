@@ -2,8 +2,8 @@ function loadPage() {
 	var idPage=getUrlVars()["idPage"];
 
 	if ( idPage == "cg") {
-		var pagetitle = "CONDITIONS G&Eacute;N&Eacute;RALES<div class='underLine'></div>";
-		document.getElementsByClassName('pagetitle')[0].innerHTML = pagetitle;
+		var pagetitle = "CONDITIONS G&Eacute;N&Eacute;RALES<div id='titileUnderLine'></div>";
+		document.getElementById('pageTitle').innerHTML = pagetitle;
 		
 		var contentText = "<b>Repelibuscium</b> dolorum rendae<br>"
 		+"post utes auttem renimi,<br>" 
@@ -12,12 +12,12 @@ function loadPage() {
 		+" laborum apieni dolo ex eume porest,<br><br>"
 		+"occatis eaque aut<br><br>"
 		+"apid et lit ea verae rerio et et reium faci dolore niatincto bea volorehendi unt, sunto quos sous rendunt lament et ut aut quia voluptibea qui ut ut venihit endanie ntest, auta nullabore pa dusaeria iligendi tendeli quiatest untum hil im ut eaturep raepero cus cus, quid esti is ?";
-		document.getElementsByClassName('contentText')[0].innerHTML = contentText;
+		document.getElementById('contentText').innerHTML = contentText;
 	} 
 	else if ( idPage == "ml") 
 	{
-		var pagetitle = "MENTIONS L&Eacute;GALES<div class='underLine'></div>";
-		document.getElementsByClassName('pagetitle')[0].innerHTML = pagetitle;
+		var pagetitle = "MENTIONS L&Eacute;GALES<div id='titileUnderLine'></div>";
+		document.getElementById('pageTitle').innerHTML = pagetitle;
 		
 		var contentText = "<b>Repelibuscium</b> dolorum rendae<br>"
 		+"post utes auttem renimi,<br>" 
@@ -26,7 +26,7 @@ function loadPage() {
 		+" laborum apieni dolo ex eume porest,<br><br>"
 		+"occatis eaque aut<br><br>"
 		+"apid et lit ea verae rerio et et reium faci dolore niatincto bea volorehendi unt, sunto quos sous rendunt lament et ut aut quia voluptibea qui ut ut venihit endanie ntest, auta nullabore pa dusaeria iligendi tendeli quiatest untum hil im ut eaturep raepero cus cus, quid esti is ?";
-		document.getElementsByClassName('contentText')[0].innerHTML = contentText;
+		document.getElementById('contentText').innerHTML = contentText;
 	}
 }
 
@@ -36,4 +36,10 @@ function getUrlVars() {
 		vars[key] = value;
 	});
 	return vars;
+}
+
+function changeFontColor(){
+	document.getElementById('pageTitle').style.color = 'black';
+	document.getElementById('contentText').style.color = 'black';
+	document.getElementById('titileUnderLine').style.borderBottomColor = 'black';
 }

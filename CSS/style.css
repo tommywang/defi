@@ -173,22 +173,25 @@ body {
 	display:block;
 }
 
-#inner .pagetitle {
+#pageTitle {
 	font-family:Letter Gothic Std;
 	font-size:30px;
+	color: white;
 	position:absolute;
 	margin-top:140px;
 	margin-left:40px;
 }
 
-#inner .pagetitle .underLine {
+#titileUnderLine {
 	margin-top:8px;
-	border-bottom:solid #000;
+	border-bottom:solid white;
 	border-bottom-width:2px;
 	width:100%;
+	
 }
 
-#inner .contentText {
+#contentText {
+	color: white;
 	font-family:VistaSansAltLight;
 	line-height:140%;
 	text-align:left;

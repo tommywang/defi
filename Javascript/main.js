@@ -24,7 +24,7 @@ function displayBlocDetails(blockNumber) {
 		}
 		break;
 	case 2:
-		if (document.getElementsByClassName('bloc1')[0].style.display =='none') {
+		if (document.getElementsByClassName('bloc1')[0].style.display == 'none') {
 			window.location = "detailPage.html";
 		} else {
 			blocDetails.style.display = 'block';
@@ -32,7 +32,7 @@ function displayBlocDetails(blockNumber) {
 		}
 		break;
 	case 3:
-		if (document.getElementsByClassName('bloc4')[0].style.display =='none') {
+		if (document.getElementsByClassName('bloc4')[0].style.display == 'none') {
 			window.location = "detailPage.html";
 		} else {
 			blocDetails.style.display = 'block';
@@ -40,7 +40,7 @@ function displayBlocDetails(blockNumber) {
 		}
 		break;
 	case 4:
-		if (document.getElementsByClassName('bloc3')[0].style.display =='none') {
+		if (document.getElementsByClassName('bloc3')[0].style.display == 'none') {
 			window.location = "detailPage.html";
 		} else {
 			blocDetails.style.display = 'block';

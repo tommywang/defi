@@ -38,9 +38,9 @@ body {
 	text-align:center;
 }
 
-.containerView.longBackground{
+.containerView.longBackground {
 	background-size:1280px 1522px;
-	height: 1522px;
+	height:1522px;
 }
 
 #inner {
@@ -73,13 +73,12 @@ body {
 	background-color:rgba(228,228,228,0.2);
 }
 
-#bottomLayer.longBackground{
-	
+#bottomLayer.longBackground {
 	position:absolute;
 	margin-left:279px;
 	margin-top:339px;
 	z-index:0;
-	height: 1084px;
+	height:1084px;
 	width:731px;
 	background-color:rgba(228,228,228,0.2);
 }
@@ -193,9 +192,9 @@ body {
 }
 
 .blocDetails .title {
-	position: absolute;
-	margin-top: 36px;
-	margin-left: 115px;
+	position:absolute;
+	margin-top:36px;
+	margin-left:115px;
 	font-family:Tamil MN;
 	font-size:20px;
 	text-decoration:none;
@@ -203,10 +202,10 @@ body {
 }
 
 .blocDetails .details {
-	position: absolute;
-	margin-top: 90px;
-	margin-left: 12px;
-	margin-right: 12px;
+	position:absolute;
+	margin-top:90px;
+	margin-left:12px;
+	margin-right:12px;
 	color:#b9b4b4;
 	font-family:VistaSansAltLight;
 	font-size:13px;
@@ -222,7 +221,7 @@ body {
 	color:#000;
 	font-family:VistaSansSCReg;
 	text-align:left;
-	text-decoration: none;
+	text-decoration:none;
 	bottom:0;
 }
 
@@ -344,196 +343,163 @@ body {
 	text-decoration:none;
 }
 
-#horizontalLine
-{
-position: absolute;
-margin-left: 74px;
-margin-top: 522px;
-width: 706px;
-border-bottom: solid #0A0000;
-border-bottom-width: 2px;
-border-color: black;
+#horizontalLine {
+	position:absolute;
+	margin-left:74px;
+	margin-top:522px;
+	width:706px;
+	border-bottom:solid #0A0000;
+	border-bottom-width:2px;
+	border-color:#000;
 }
 
-#verticalLine
-{
-position: absolute;
-margin-left: 681px;
-margin-top: 65px;
-height: 993px;
-border-left: solid #0A0000;
-border-left-width: 2px;
-border-color: black;
+#verticalLine {
+	position:absolute;
+	margin-left:681px;
+	margin-top:65px;
+	height:993px;
+	border-left:solid #0A0000;
+	border-left-width:2px;
+	border-color:#000;
 }
 
-.smallCross
-{
-font-family: VistaSansSCLight;
-padding-top: 2px;
-position: absolute;
-font-size: 27px;
-color: white;
-margin-top: 370px;
-margin-left: 947px;
-height: 28px;
-width: 28px;
-background-color: rgba(0, 0, 0, 0.8);
--moz-border-radius: 5px;
--webkit-border-radius: 5px;
--khtml-border-radius: 5px;
-border-radius: 105px;
-display: block;
-z-index: 1;
-cursor: default;
-}
-
-.blocDetailsMore
-{
+.smallCross {
 	font-family:VistaSansSCLight;
-    margin-top:92px;
-    position: absolute;    
+	padding-top:2px;
+	position:absolute;
+	font-size:27px;
+	color:#fff;
+	margin-top:370px;
+	margin-left:947px;
+	height:28px;
+	width:28px;
+	background-color:rgba(0,0,0,0.8);
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	-khtml-border-radius:5px;
+	border-radius:105px;
+	display:block;
+	z-index:1;
+	cursor:default;
 }
 
-.blocDetailsMore > img
-{
-    float:left;
-    margin-left:50px;
-    margin-top:40px;
-    margin-right:20px;
-    margin-bottom:20px;
-    height:250px;
+.blocDetailsMore {
+	font-family:VistaSansSCLight;
+	margin-top:92px;
+	position:absolute;
 }
 
-.blocDetailsMore .detailTitle
-{
-	
-    font-size: 33px;
-position: relative;
-top: 30px;
-left: -46px;     
+.blocDetailsMore > img {
+	float:left;
+	margin-left:50px;
+	margin-top:40px;
+	margin-right:20px;
+	margin-bottom:20px;
+	height:250px;
 }
 
-.blocDetailsMore .detailContent
-{            
-line-height:140%;
-   margin-top: 40px;
-margin-right: 40px;
-margin-left: 40px;
-text-align: left;       
+.blocDetailsMore .detailTitle {
+	font-size:33px;
+	position:relative;
+	top:30px;
+	left:-46px;
 }
 
-
-
-
-
-
-#detailTitle
-{
-    font-size:25px;     
-    position:relative;
-    top:30px;
-    left:-60px;       
+.blocDetailsMore .detailContent {
+	line-height:140%;
+	margin-top:40px;
+	margin-right:40px;
+	margin-left:40px;
+	text-align:left;
 }
 
-.innerBottom > .download{
-	position: absolute;
-margin-top: -579px;
-margin-left: 498px;
+#detailTitle {
+	font-size:25px;
+	position:relative;
+	top:30px;
+	left:-60px;
 }
 
-.innerBottom
-{
-    position: absolute;
-z-index: 1;
-margin-top: 862px;
-margin-left: 333px;
-height: 563px;
-width: 628px;
+.innerBottom > .download {
+	position:absolute;
+	margin-top:-579px;
+	margin-left:498px;
 }
 
-
-.detailSection
-{
-    height:181px;
+.innerBottom {
+	position:absolute;
+	z-index:1;
+	margin-top:862px;
+	margin-left:333px;
+	height:563px;
+	width:628px;
 }
 
-.detailSection.detailSection1
-{
+.detailSection {
+	height:181px;
+}
+
+.detailSection.detailSection1 {
 	margin-top:10px;
 }
-.detailSection.detailSection1 > img
-{
-    position:relative;
-    float:left;
-    margin:20px;
+
+.detailSection.detailSection1 > img {
+	position:relative;
+	float:left;
+	margin:20px;
 }
 
-.detailSection.detailSection2 > img
-{
-    position:relative;
-    float:right;
-    margin:20px;
+.detailSection.detailSection2 > img {
+	position:relative;
+	float:right;
+	margin:20px;
 }
 
-
-.detailSection.detailSection3 > img
-{
-    position:relative;
-    float:left;
-    margin:20px;
+.detailSection.detailSection3 > img {
+	position:relative;
+	float:left;
+	margin:20px;
 }
 
-.textZone
-{
-font-family:VistaSansAltLight;
-	position: relative;
-width: 380px;
-height: 130px;
-text-align: left;
-padding: 30px;
+.textZone {
+	font-family:VistaSansAltLight;
+	position:relative;
+	width:380px;
+	height:130px;
+	text-align:left;
+	padding:30px;
 }
 
-.detailSection1 .textZone{
-	margin-left: 181px;
-	
+.detailSection1 .textZone {
+	margin-left:181px;
 }
 
-.detailSection2 .textZone{
-	margin-left: 0px;
+.detailSection2 .textZone {
+	margin-left:0;
 }
 
-.detailSection3 .textZone{
-	margin-left: 181px;
+.detailSection3 .textZone {
+	margin-left:181px;
 }
 
-.sectionTitle
-{
+.sectionTitle {
 	font-family:VistaSansSCReg;
 	font-size:15px;
-	font-style: bold;
-	position: absolute;
-	
+	font-style:bold;
+	position:absolute;
 }
-
-/*
-.textZone .pageTitle {
-	font-family:Letter Gothic Std;
-	font-size:20px;
-	color:black;
-}
-*/
 
 .textZone .titileUnderLine {
 	margin-top:2px;
-	border-bottom:solid black;
+	border-bottom:solid #000;
 	border-bottom-width:2px;
 	width:100%;
 }
 
 .textZone .contentText {
-font-size:12px;
-margin-top: 25px;
-	color:black;
+	font-size:12px;
+	margin-top:25px;
+	color:#000;
 	font-family:VistaSansSCReg;
 	line-height:140%;
 	text-align:left;

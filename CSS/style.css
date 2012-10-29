@@ -8,6 +8,11 @@
 	src:url(../VistaSansSCLight.ttf);
 }
 
+@font-face {
+	font-family:"VistaSansSCReg";
+	src:url(../VistaSansSCReg.ttf);
+}
+
 body {
 	background-color:#7c7575;
 	margin:0;
@@ -147,6 +152,85 @@ body {
 	margin-left:348px;
 }
 
+.blocDetails {
+	position:absolute;
+	width:300px;
+	height:231px;
+	background-color:#fff;
+	display:none;
+}
+
+.blocDetails thumb {
+	position:absolute;
+	width:50px;
+	height:50px;
+}
+
+.blocDetails .thumb > img {
+	float:left;
+	padding-top:12px;
+	padding-left:12px;
+}
+
+.blocDetails .title {
+	position: absolute;
+	margin-top: 36px;
+	margin-left: 115px;
+	font-family:Tamil MN;
+	font-size:20px;
+	text-decoration:none;
+	color:#000;
+}
+
+.blocDetails .details {
+	position: absolute;
+	margin-top: 90px;
+	margin-left: 12px;
+	margin-right: 12px;
+	color:#b9b4b4;
+	font-family:VistaSansAltLight;
+	font-size:13px;
+	font-style:italic;
+	text-align:left;
+	float:left;
+}
+
+.blocDetails .seeMore {
+	position:absolute;
+	padding-left:12px;
+	padding-bottom:5px;
+	color:#000;
+	font-family:VistaSansSCReg;
+	text-align:left;
+	bottom:0;
+}
+
+.blocDetails .download {
+	position:absolute;
+	margin-top:200px;
+	margin-left:149px;
+}
+
+.blocDetails.bloc1Details {
+	margin-top:115px;
+	margin-left:315px;
+}
+
+.blocDetails.bloc2Details {
+	margin-top:115px;
+	margin-left:15px;
+}
+
+.blocDetails.bloc3Details {
+	margin-top:355px;
+	margin-left:315px;
+}
+
+.blocDetails.bloc4Details {
+	margin-top:355px;
+	margin-left:15px;
+}
+
 .blocLayer {
 	margin-top:7px;
 	margin-left:8px;
@@ -160,7 +244,7 @@ body {
 	display:none;
 }
 
-.blocLayer a {
+.blocLayer > div {
 	font-family:Tamil MN;
 	font-size:20px;
 	text-decoration:none;
@@ -176,7 +260,7 @@ body {
 #pageTitle {
 	font-family:Letter Gothic Std;
 	font-size:30px;
-	color: white;
+	color:#fff;
 	position:absolute;
 	margin-top:140px;
 	margin-left:40px;
@@ -184,14 +268,13 @@ body {
 
 #titileUnderLine {
 	margin-top:8px;
-	border-bottom:solid white;
+	border-bottom:solid #fff;
 	border-bottom-width:2px;
 	width:100%;
-	
 }
 
 #contentText {
-	color: white;
+	color:#fff;
 	font-family:VistaSansAltLight;
 	line-height:140%;
 	text-align:left;

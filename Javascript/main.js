@@ -1,4 +1,3 @@
-
 function toGreenBackground() {
 	//var background=document.getElementById('mainContainer');
 	document.getElementById('first').style.backgroundImage = 'url("Assets/backgroundGreen.png")';
@@ -6,5 +5,55 @@ function toGreenBackground() {
 	document.getElementById('triangle').style.backgroundImage = 'url("Assets/triangleYellow.png")';
 	document.getElementById('topLayer').style.backgroundColor = 'rgba(178,175,178,0.49)';
 	document.getElementById('bottomLayer').style.backgroundColor = 'rgba(178,175,178,0.49)';
-	document.getElementById('inner').style.backgroundColor = 'rgba(255,255,255,0.8)';	
+	document.getElementById('inner').style.backgroundColor = 'rgba(255,255,255,0.8)';
+}
+
+function displayBlocDetails(blockNumber) {
+	var blockDetailsId = "bloc" + blockNumber + "Details";
+	var bloc1Details = document.getElementById(blockDetailsId);
+	switch (blockNumber) {
+	case 1:
+		if (document.getElementsByClassName('bloc2')[0].style.display == 'none';) {
+			window.location = "index4.html";
+		} else {
+			bloc1Details.style.display = 'block';
+			document.getElementsByClassName('bloc2')[0].style.display = 'none';
+		}
+		break;
+	case 2:
+		if (document.getElementsByClassName('bloc1')[0].style.display = -'none';) {
+			window.location = "index4.html";
+		} else {
+			bloc1Details.style.display = 'block';
+			document.getElementsByClassName('bloc1')[0].style.display = 'none';
+		}
+		break;
+	case 3:
+		if (document.getElementsByClassName('bloc4')[0].style.display = -'none';) {
+			window.location = "index4.html";
+		} else {
+			bloc1Details.style.display = 'block';
+			document.getElementsByClassName('bloc4')[0].style.display = 'none';
+		}
+		break;
+	case 4:
+		if (document.getElementsByClassName('bloc3')[0].style.display = -'none';) {
+			window.location = "index4.html";
+		} else {
+			bloc1Details.style.display = 'block';
+			document.getElementsByClassName('bloc3')[0].style.display = 'none';
+		}
+		break;
+	default:
+		break;
+	}
+}
+
+function hideBlocDetails(blockNumber) {
+	for (var i = 1; i <= 4; i++) {
+		var blocClass = "bloc" + i;
+		document.getElementsByClassName(blocClass)[0].style.display = 'block';
+	}
+	var blockDetailsId = "bloc" + blockNumber + "Details";
+	document.getElementById(blockDetailsId).style.display = 'none';
 }

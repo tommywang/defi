@@ -142,6 +142,10 @@ body {
 	position:absolute;
 	width:212px;
 	height:211px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	-khtml-border-radius:5px;
+	border-radius:105px;
 }
 
 .bloc.bloc1 {
@@ -351,7 +355,7 @@ border-bottom-width: 2px;
 border-color: black;
 }
 
-#veticalLine
+#verticalLine
 {
 position: absolute;
 margin-left: 681px;
@@ -362,7 +366,26 @@ border-left-width: 2px;
 border-color: black;
 }
 
-
+.smallCross
+{
+font-family: VistaSansSCLight;
+padding-top: 2px;
+position: absolute;
+font-size: 27px;
+color: white;
+margin-top: 370px;
+margin-left: 947px;
+height: 28px;
+width: 28px;
+background-color: rgba(0, 0, 0, 0.8);
+-moz-border-radius: 5px;
+-webkit-border-radius: 5px;
+-khtml-border-radius: 5px;
+border-radius: 105px;
+display: block;
+z-index: 1;
+cursor: default;
+}
 
 .blocDetailsMore
 {

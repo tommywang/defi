@@ -24,10 +24,10 @@ function toGreenBackground(){
 	//var background=document.getElementById('mainContainer');
 	document.getElementById('first').style.backgroundImage='url("Assets/backgroundGreen.png")';
 	document.getElementById('plage').style.backgroundImage='url("Assets/beach.png")';
-	document.getElementsByClassName('triangle')[0].style.backgroundImage='url("Assets/triangleYellow.png")';
-	document.getElementsByClassName('topLayer')[0].style.backgroundColor='rgba(178,175,178,0.49)';
-	document.getElementsByClassName('bottomLayer')[0].style.backgroundColor='rgba(178,175,178,0.49)';
-	document.getElementsByClassName('inner')[0].style.backgroundColor='rgba(255,255,255,0.8)';
+	document.getElementById('triangle').style.backgroundImage='url("Assets/triangleYellow.png")';
+	document.getElementById('topLayer').style.backgroundColor='rgba(178,175,178,0.49)';
+	document.getElementById('bottomLayer').style.backgroundColor='rgba(178,175,178,0.49)';
+	document.getElementById('inner').style.backgroundColor='rgba(255,255,255,0.8)';
 }
 
 function toRedBackground(){

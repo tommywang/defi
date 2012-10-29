@@ -10,37 +10,37 @@ function toGreenBackground() {
 
 function displayBlocDetails(blockNumber) {
 	var blockDetailsId = "bloc" + blockNumber + "Details";
-	var bloc1Details = document.getElementById(blockDetailsId);
+	var blocDetails = document.getElementById(blockDetailsId);
 	switch (blockNumber) {
 	case 1:
-		if (document.getElementsByClassName('bloc2')[0].style.display == 'none';) {
-			window.location = "index4.html";
+		if (document.getElementsByClassName('bloc2')[0].style.display == 'none') {
+			window.location = "detailPage.html";
 		} else {
-			bloc1Details.style.display = 'block';
+			blocDetails.style.display = 'block';
 			document.getElementsByClassName('bloc2')[0].style.display = 'none';
 		}
 		break;
 	case 2:
-		if (document.getElementsByClassName('bloc1')[0].style.display = -'none';) {
-			window.location = "index4.html";
+		if (document.getElementsByClassName('bloc1')[0].style.display =='none') {
+			window.location = "detailPage.html";
 		} else {
-			bloc1Details.style.display = 'block';
+			blocDetails.style.display = 'block';
 			document.getElementsByClassName('bloc1')[0].style.display = 'none';
 		}
 		break;
 	case 3:
-		if (document.getElementsByClassName('bloc4')[0].style.display = -'none';) {
-			window.location = "index4.html";
+		if (document.getElementsByClassName('bloc4')[0].style.display =='none') {
+			window.location = "detailPage.html";
 		} else {
-			bloc1Details.style.display = 'block';
+			blocDetails.style.display = 'block';
 			document.getElementsByClassName('bloc4')[0].style.display = 'none';
 		}
 		break;
 	case 4:
-		if (document.getElementsByClassName('bloc3')[0].style.display = -'none';) {
-			window.location = "index4.html";
+		if (document.getElementsByClassName('bloc3')[0].style.display =='none') {
+			window.location = "detailPage.html";
 		} else {
-			bloc1Details.style.display = 'block';
+			blocDetails.style.display = 'block';
 			document.getElementsByClassName('bloc3')[0].style.display = 'none';
 		}
 		break;
